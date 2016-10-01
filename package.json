@@ -1,0 +1,27 @@
+{
+  "name": "defragment-array",
+  "version": "1.0.0",
+  "description": "Defragment an Array",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pepogreen/defragment-array.git"
+  },
+  "keywords": [
+    "defragment",
+    "array"
+  ],
+  "author": "Ansad <ansadm@gmail.com> [http://pepogreen.com]",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pepogreen/defragment-array/issues"
+  },
+  "homepage": "https://github.com/pepogreen/defragment-array#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "defragment-array",
   "version": "1.0.0",
-  "description": "Defragment an Array",
+  "description": "Defragment An Array",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"

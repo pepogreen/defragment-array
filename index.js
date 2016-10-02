@@ -1,12 +1,12 @@
 module.exports = {
 	defragment: function (inputarray, key) {
-		if (!angular.isArray(array)) {
+		if (!Array.isArray(inputarray)) {
          return;
        }
-       var present = array.filter(function (item) {
+       var present = inputarray.filter(function (item) {
            return item[key];
          }),
-         empty = array.filter(function (item) {
+         empty = inputarray.filter(function (item) {
            return !item[key];
          });
        return present.concat(empty);

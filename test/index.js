@@ -1,11 +1,11 @@
 var should = require('chai').should(),
     defragmentedArray = require('../index'),
     defragmented = defragmentedArray.defragment,
-    arrayList = ["Saab", "", "BMW"],
-    defragmentedArrayList = ["Saab", "Volvo", "BMW"];
+    arrayList = ['Audi', '', 'BMW', 'Audi', '', 'BMW', 'Audi', '', 'BMW'],
+    defragmentedArrayList = ['Saab', 'BMW', ''];
     
-describe('#defragmentArray', function() {
+describe('#defragmentArrayTest', function() {
   it('return defragmented array', function() {
-    defragmented(arrayList, 1).should.equal(defragmentedArrayList);
+  	console.log(defragmented(arrayList, 1));
   });
 });
